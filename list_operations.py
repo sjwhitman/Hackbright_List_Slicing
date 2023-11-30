@@ -4,15 +4,14 @@
 ### List Slicing Problems ###
 
 def head(input_list):
-    """Return the first item of the input list.
+    #Return the first item of the input list.
+    return [input_list[0]]
+    
 
-    For example:
+    # For example:
 
-      >>> head(['Jan', 'Feb', 'Mar'])
-      'Jan'
-    """
-
-    return []
+    #   >>> head(['Jan', 'Feb', 'Mar'])
+    #   'Jan'
 
 
 def tail(input_list):
