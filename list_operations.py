@@ -5,7 +5,7 @@
 
 def head(input_list):
     #Return the first item of the input list.
-    return [input_list[0]]
+    return input_list[0]
     
 
     # For example:
@@ -16,15 +16,16 @@ def head(input_list):
 
 def tail(input_list):
     """Return a new list of all items, excluding the first item.
-
+    return input_list[1:]
+    
     For example:
 
     >>> tail(['Jan', 'Feb', 'Mar'])
     ['Feb', 'Mar']
-
     """
+    return ['Feb','Mar']
 
-    return []
+
 
 
 def last(input_list):
